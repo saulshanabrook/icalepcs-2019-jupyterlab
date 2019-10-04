@@ -1,3 +1,9 @@
 [submodule "jupyterlab-hdf5"]
 	path = jupyterlab-hdf5
 	url = https://github.com/jupyterlab/jupyterlab-hdf5.git
+[submodule "hdf5-examples"]
+	path = hdf5-examples
+	url = git@github.com:RobertRosca/hdf5-examples.git
+[submodule "jupyterlab-demo"]
+	path = jupyterlab-demo
+	url = git@github.com:jupyterlab/jupyterlab-demo.git

@@ -6,7 +6,24 @@ cd jupyterlab-hdf5
 jlpm run build
 cd  ..
 
+cd jupyterlab-demo
+rm -r demofiles/move_it_here || true
+invoke demofiles
+cd ..
+
+cd hdf5-examples
+bash binder/postBuild
+python binder/scripts/data-selector.py
+cd ..
+
 jupyter labextension install \
     @jupyterlab/dataregistry-extension@3.0.0 \
     @jupyterlab/metadata-extension@1.5.0 \
-    ./jupyterlab-hdf5
+    ./jupyterlab-hdf5 \
+    @jupyterlab/fasta-extension@1.0.0 \
+    @jupyterlab/geojson-extension@1.0 \
+    jupyterlab-plotly@1.1.2 \
+    bqplot@0.5.0-beta.1  \
+    jupyter-leaflet@0.11.2 \
+    @jupyterlab/toc@1.0.1 \
+    @jupyter-widgets/jupyterlab-manager@1.0.2
