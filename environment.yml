@@ -41,7 +41,7 @@ dependencies:
   ##
   - pip
   - pip:
-    - jupyterlab_hdf==0.1.0
+    - ./jupyterlab-hdf5
     - awscli==1.16.250
     - h5py==2.10.0
     - h5glance==0.6
