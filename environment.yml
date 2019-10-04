@@ -1,0 +1,15 @@
+name: icalepcs-2019-jupyterlab
+channels:
+  - conda-forge
+dependencies:
+  - jupyterlab==1.1.4
+  - pip
+  - pip:
+    - jupyterlab_hdf==0.1.0
+    - awscli==1.16.250
+    - h5py==2.10.0
+    - h5glance==0.6
+    - karabo_data==0.6.2
+    - matplotlib==3.1.1
+    - numpy==1.17.2
+    - pandas==0.25.0

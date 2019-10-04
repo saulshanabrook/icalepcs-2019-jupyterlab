@@ -1,0 +1,12 @@
+#!/bin/bash
+set -o errexit
+set -o xtrace
+
+cd jupyterlab-hdf5
+jlpm run build
+cd  ..
+
+jupyter labextension install \
+    @jupyterlab/dataregistry-extension@3.0.0 \
+    @jupyterlab/metadata-extension@1.5.0 \
+    ./jupyterlab-hdf5
