@@ -46,3 +46,6 @@ dependencies:
     - h5py==2.10.0
     - h5glance==0.6
     - karabo_data==0.6.2
+    - fastapi
+    - uvicorn
+    - cookiecutter
