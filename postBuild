@@ -28,5 +28,3 @@ jupyter labextension install \
     @jupyterlab/toc@1.0.1 \
     @jupyter-widgets/jupyterlab-manager@1.0.2 \
     jupyter-matplotlib
-
-jupyter labextension disable @jupyterlab/metadata-extension
