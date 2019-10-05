@@ -2,6 +2,7 @@
 
 ###### ...for the [Jupyter workshop](https://indico.desy.de/indico/event/23354/) during the [17th International Conference on Accelerator and Large Experimental Physics Control Systems (ICALEPSC2019)](https://icalepcs2019.bnl.gov/workshops.html)
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/saulshanabrook/icalepcs-2019-jupyterlab/master?urlpath=lab)
 
 JupyterLab is the next generation of the notebook interface. This talk
 will start with an overview of the JupyterLab interface to show how it
