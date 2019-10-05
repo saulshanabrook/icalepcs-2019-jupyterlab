@@ -3,7 +3,7 @@
 	url = https://github.com/jupyterlab/jupyterlab-hdf5.git
 [submodule "hdf5-examples"]
 	path = hdf5-examples
-	url = git@github.com:saulshanabrook/hdf5-examples.git
+	url = https://github.com/saulshanabrook/hdf5-examples.git
 [submodule "jupyterlab-demo"]
 	path = jupyterlab-demo
-	url = git@github.com:jupyterlab/jupyterlab-demo.git
+	url = https://github.com/jupyterlab/jupyterlab-demo.git
